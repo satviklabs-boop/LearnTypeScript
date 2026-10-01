@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Current File",
+      "type": "node",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${workspaceFolder}",
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+      "skipLibCheck": true,
+      "sourceMaps": true,
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Run AddNumbers.ts",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/AddNumbers.ts",
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+      "skipLibCheck": true,
+      "sourceMaps": true,
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "npm: start",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "start"],
+      "cwd": "${workspaceFolder}",
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+      "skipLibCheck": true,
+      "sourceMaps": true,
+      "console": "integratedTerminal"
+    }
+  ]
+}

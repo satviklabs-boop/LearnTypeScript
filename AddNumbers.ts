@@ -4,3 +4,4 @@ let num2: number = 20;
 let sum: number = num1 + num2;
 
 console.log("Sum =", sum);
+console.log("Hello world");

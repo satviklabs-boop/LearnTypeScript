@@ -1,0 +1,29 @@
+{
+  "name": "temp_clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node AddNumbers.ts",
+    "watch": "ts-node-dev --respawn AddNumbers.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satviklabs-boop/LaernTypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/satviklabs-boop/LaernTypeScript/issues"
+  },
+  "homepage": "https://github.com/satviklabs-boop/LaernTypeScript#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

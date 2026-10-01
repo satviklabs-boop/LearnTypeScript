@@ -1,0 +1,15 @@
+[
+  {
+    "key": "f10",
+    "command": "code-runner.run",
+    "when": "editorTextFocus && !inDebugMode"
+  },
+  {
+    "key": "f10",
+    "command": "-workbench.action.debug.stepOver"
+  },
+  {
+    "key": "ctrl+alt+n",
+    "command": "-code-runner.run"
+  }
+]
