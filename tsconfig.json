@@ -12,6 +12,6 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
   },
-  "include": ["*.ts"],
+  "include": ["*.ts", "LogicBuilding/ArmstrongNumber.ts", "LogicBuilding/PairSum.ts", "LogicBuilding/MoveNonZerotolast.ts", "LogicBuilding/MergeArray.ts", "LogicBuilding/LargestSmallest.ts", "LogicBuilding/FindMissingNumber.ts", "LogicBuilding/Factorial.ts", "LogicBuilding/CountCharacter.ts", "LogicBuilding/ArrayRotation.ts", "LogicBuilding/ArrayLeaders.ts", "LogicBuilding/Anagram.ts", "LogicBuilding/AddNumbers.ts", "LogicBuilding/tempCodeRunnerFile.ts", "LogicBuilding/StringPermutations.ts", "LogicBuilding/ReverseStringKeepSpaceatsameplace.ts", "LogicBuilding/ReverseString.ts", "LogicBuilding/ReverseInteger.ts", "LogicBuilding/ReverseArray.ts", "LogicBuilding/ReverseAlternativeWords.ts", "LogicBuilding/RemoveDuplicates.ts", "LogicBuilding/RandomNumber.ts", "LogicBuilding/PrintVowels.ts", "LogicBuilding/Printconsonants.ts", "LogicBuilding/PrimeNumber.ts"],
   "exclude": ["node_modules", "dist"]
 }
