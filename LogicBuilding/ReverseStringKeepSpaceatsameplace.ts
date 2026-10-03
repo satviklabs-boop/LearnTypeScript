@@ -1,22 +1,26 @@
 export {}; // makes this file a module so its variables are file-scoped instead of shared global scope
 
-let str = "ab cd ef";
+function reverseWithSpacesTwoPointers(str: string): string {
+  const arr = str.split('');
+  let left = 0;
+  let right = arr.length - 1;
 
-let result = "";
-let j = str.length - 1;
-
-for (let i = 0; i < str.length; i++) {
-
-    if (str[i] === " ") {
-        result = result + " ";
+  while (left < right) {
+    if (arr[left] === ' ') {
+      left++;
+    } else if (arr[right] === ' ') {
+      right--;
     } else {
-        while (str[j] === " ") {
-            j--;
-        }
-
-        result = result + str[j];
-        j--;
+      // Swap non-space characters
+      const temp = arr[left];
+      arr[left] = arr[right];
+      arr[right] = temp;
+      left++;
+      right--;
     }
+  }
+
+  return arr.join('');
 }
 
 console.log(result);
