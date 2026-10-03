@@ -23,4 +23,4 @@ function reverseWithSpacesTwoPointers(str: string): string {
   return arr.join('');
 }
 
-console.log(result);
+console.log(reverseWithSpacesTwoPointers("ab cd ef"));
