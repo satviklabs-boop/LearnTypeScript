@@ -1,10 +1,8 @@
-let num: number = 12345;
-let reverse: number = 0;
-
-while (num > 0) {
-    let digit = num % 10;
-    reverse = reverse*0+digit;
-    num = parseInt((num / 10).toString());
+let int=123;
+let reverse:number=0;
+while (int>0){
+    let digit=int%10;
+    reverse=(reverse*10)+digit;
+    int=Math.floor(int/10);
 }
-
 console.log(reverse);
